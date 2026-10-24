@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Go Panel</string>
+    <string name="app_subtitle">OpenCode Go kullanımı ana ekranında</string>
+
+    <string name="widget_title">OpenCode Go</string>
+    <string name="widget_title_plus">OpenCode Go Plus</string>
+    <string name="widget_title_compact">OpenCode Go Kompakt</string>
+    <string name="widget_description">OpenCode Go kullanımını yüzde olarak gösterir.</string>
+    <string name="widget_description_small">Kompakt 4x1 OpenCode Go kullanım widget\'ı.</string>
+
+    <string name="meter_five_hour">5 saat</string>
+    <string name="meter_week">Hafta</string>
+    <string name="meter_month">Ay</string>
+    <string name="used_badge">%1$d%% kullanıldı</string>
+    <string name="reset_in">%1$s kaldı</string>
+    <string name="reset_unknown">—</string>
+    <string name="reset_now">şimdi</string>
+    <string name="duration_days_hours">%1$dg %2$ds</string>
+    <string name="duration_hours_minutes">%1$ds %2$ddk</string>
+    <string name="duration_minutes">%1$ddk</string>
+    <string name="subscription_days_short">%1$dg</string>
+    <string name="meter_five_hour_tiny">5s</string>
+    <string name="meter_week_tiny">Hafta</string>
+    <string name="meter_month_tiny">Ay</string>
+
+    <string name="widget_setup_short">Kurulum</string>
+    <string name="widget_error_short">Hata</string>
+    <string name="widget_refresh_short">Yenile</string>
+    <string name="demo_badge">DEMO</string>
+    <string name="settings">Ayarlar</string>
+    <string name="refreshing">Yenileniyor…</string>
+
+    <string name="status_card_title">En yüksek kullanım</string>
+    <string name="status_title_with_plan">%1$s · %2$s</string>
+    <string name="status_no_data">Henüz veri yok. Anahtarı kaydet ve Yenile\'ye dokun.</string>
+    <string name="status_demo">Demo verisi</string>
+    <string name="status_error">Son yenileme başarısız: %1$s</string>
+    <string name="status_last_updated">Son güncelleme: %1$s</string>
+    <string name="status_never_updated">Hiç güncellenmedi</string>
+    <string name="usage_row">%1$s: %2$d%% kullanıldı · %3$s</string>
+
+    <string name="monthly_renewal">Aylık yenilenme: %1$s</string>
+    <string name="cancel_at_period_end">Abonelik dönem sonunda bitecek.</string>
+    <string name="plan_go">Go</string>
+    <string name="plan_go_plus">Go Plus</string>
+
+    <string name="api_key_label">OpenCode API anahtarı</string>
+    <string name="api_key_label_saved">OpenCode API anahtarı (kayıtlı)</string>
+    <string name="api_key_hint">oc_sk_…</string>
+    <string name="api_key_scope_info">Console şu an Go API anahtarını veya `all` izinli anahtarı kabul ediyor. `usage:read` ve salt-okunur anahtarlar reddedilebilir. Uygulama yalnızca kullanımı okur.</string>
+    <string name="show_key">Anahtarı göster</string>
+    <string name="save_and_test">Kaydet ve test et</string>
+    <string name="save_and_add_widget">Kaydet ve widget\'ı ekle</string>
+    <string name="refresh">Yenile</string>
+    <string name="delete_key">Anahtarı sil</string>
+    <string name="delete_key_confirm_title">API anahtarı silinsin mi?</string>
+    <string name="delete_key_confirm_message">Yeni bir anahtar girene kadar widget güncellenmez.</string>
+    <string name="delete">Sil</string>
+    <string name="cancel">Vazgeç</string>
+
+    <string name="key_required">Önce bir API anahtarı gir.</string>
+    <string name="key_saved">Anahtar kaydedildi.</string>
+    <string name="key_save_failed">Anahtar bu cihazda kaydedilemedi.</string>
+    <string name="using_saved_key">Kayıtlı anahtar kullanılıyor.</string>
+    <string name="testing">Bağlantı test ediliyor…</string>
+    <string name="connection_ok">Bağlantı başarılı.</string>
+    <string name="connection_failed">Yenilenemedi.</string>
+    <string name="key_saved_but_failed">Anahtar kaydedildi, ancak yenileme başarısız.</string>
+
+    <string name="error_no_key">API anahtarı gerekli</string>
+    <string name="error_unauthorized">API anahtarı geçersiz</string>
+    <string name="error_no_subscription">Go aboneliği yok</string>
+    <string name="error_rate_limited">Çok sık denendi</string>
+    <string name="error_network">Bağlantı hatası</string>
+    <string name="error_server">Sunucu hatası</string>
+    <string name="error_parse">Yanıt okunamadı</string>
+
+    <string name="privacy_note">API anahtarı Android Keystore ile bu cihazda şifreli saklanır. opencode.ai dışında hiçbir yere gönderilmez.</string>
+    <string name="how_it_works">Widget, OpenCode console API\'sini doğrudan telefonundan çağırır. Hesap verisi toplanmaz.</string>
+    <string name="console_link">API anahtarı: opencode.ai/console/go</string>
+    <string name="unofficial_note">Resmî olmayan istemci. OpenCode ile bağlantılı değildir. Console uç noktası dahili olup değişebilir.</string>
+</resources>

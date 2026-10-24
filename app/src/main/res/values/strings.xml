@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Go Panel</string>
+    <string name="app_subtitle">OpenCode Go usage on your home screen</string>
+
+    <string name="widget_title">OpenCode Go</string>
+    <string name="widget_title_plus">OpenCode Go Plus</string>
+    <string name="widget_title_compact">OpenCode Go Compact</string>
+    <string name="widget_description">Shows OpenCode Go usage as percentages.</string>
+    <string name="widget_description_small">Compact 4x1 OpenCode Go usage widget.</string>
+
+    <string name="meter_five_hour">5 hours</string>
+    <string name="meter_week">Week</string>
+    <string name="meter_month">Month</string>
+    <string name="used_badge">%1$d%% used</string>
+    <string name="reset_in">%1$s left</string>
+    <string name="reset_unknown">—</string>
+    <string name="reset_now">now</string>
+    <string name="duration_days_hours">%1$dd %2$dh</string>
+    <string name="duration_hours_minutes">%1$dh %2$dm</string>
+    <string name="duration_minutes">%1$dm</string>
+    <string name="subscription_days_short">%1$dd</string>
+    <string name="meter_five_hour_tiny">5h</string>
+    <string name="meter_week_tiny">Wk</string>
+    <string name="meter_month_tiny">Mo</string>
+
+    <string name="widget_setup_short">Setup</string>
+    <string name="widget_error_short">Error</string>
+    <string name="widget_refresh_short">Refresh</string>
+    <string name="demo_badge">DEMO</string>
+    <string name="settings">Settings</string>
+    <string name="refreshing">Refreshing…</string>
+
+    <string name="status_card_title">Highest usage</string>
+    <string name="status_title_with_plan">%1$s · %2$s</string>
+    <string name="status_no_data">No data yet. Save a key and tap Refresh.</string>
+    <string name="status_demo">Demo data</string>
+    <string name="status_error">Last refresh failed: %1$s</string>
+    <string name="status_last_updated">Last updated: %1$s</string>
+    <string name="status_never_updated">Never updated</string>
+    <string name="usage_row">%1$s: %2$d%% used · %3$s</string>
+
+    <string name="monthly_renewal">Monthly renewal: %1$s</string>
+    <string name="cancel_at_period_end">Subscription ends at the end of the period.</string>
+    <string name="plan_go">Go</string>
+    <string name="plan_go_plus">Go Plus</string>
+
+    <string name="api_key_label">OpenCode API key</string>
+    <string name="api_key_label_saved">OpenCode API key (saved)</string>
+    <string name="api_key_hint">oc_sk_…</string>
+    <string name="api_key_scope_info">The console currently accepts the Go API key or a key with `all`. `usage:read` and read-only keys may be rejected. The app only reads usage.</string>
+    <string name="show_key">Show key</string>
+    <string name="save_and_test">Save and test</string>
+    <string name="save_and_add_widget">Save and add widget</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete_key">Delete key</string>
+    <string name="delete_key_confirm_title">Delete API key?</string>
+    <string name="delete_key_confirm_message">The widget will stop updating until you enter a key again.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="key_required">Enter an API key first.</string>
+    <string name="key_saved">Key saved.</string>
+    <string name="key_save_failed">Could not save the key on this device.</string>
+    <string name="using_saved_key">Using the saved key.</string>
+    <string name="testing">Testing connection…</string>
+    <string name="connection_ok">Connection successful.</string>
+    <string name="connection_failed">Could not refresh.</string>
+    <string name="key_saved_but_failed">Key saved, but the refresh failed.</string>
+
+    <string name="error_no_key">API key required</string>
+    <string name="error_unauthorized">Invalid API key</string>
+    <string name="error_no_subscription">No Go subscription</string>
+    <string name="error_rate_limited">Rate limited</string>
+    <string name="error_network">Network error</string>
+    <string name="error_server">Server error</string>
+    <string name="error_parse">Unreadable response</string>
+
+    <string name="privacy_note">The API key is stored encrypted on this device using the Android Keystore. It is never sent anywhere except opencode.ai.</string>
+    <string name="how_it_works">The widget calls the OpenCode console API directly from your phone. No account data is collected.</string>
+    <string name="console_link">Get your API key: opencode.ai/console/go</string>
+    <string name="unofficial_note">Unofficial client. Not affiliated with OpenCode. The console endpoint is internal and may change.</string>
+</resources>
