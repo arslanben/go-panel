@@ -78,50 +78,6 @@ Used percentage is calculated as `used / limit`. If the API reports usage above 
 
 The small header countdown comes from the subscription period end (`access.endsAt`).
 
-## Build
-
-Requirements: JDK 21, Android SDK 35, and internet access for Gradle dependencies.
-
-```bash
-export JAVA_HOME=/path/to/jdk-21
-export ANDROID_HOME=/path/to/android-sdk
-
-# Optional; AGP can also use ANDROID_HOME
-echo "sdk.dir=$ANDROID_HOME" > local.properties
-
-./gradlew testDebugUnitTest
-./gradlew assembleDebug
-```
-
-The debug APK is at `app/build/outputs/apk/debug/app-debug.apk`.
-
-### Release build
-
-`assembleRelease` produces a non-debuggable APK. If no `keystore.properties` exists, it uses the Android debug keystore so the APK can be sideloaded. For a proper release key:
-
-```bash
-keytool -genkeypair -v -keystore keystore.jks -alias go-panel \
-  -keyalg RSA -keysize 2048 -validity 10000
-
-cp keystore.properties.example keystore.properties
-# edit keystore.properties with your passwords
-
-./gradlew assembleRelease
-```
-
-The APK is at `app/build/outputs/apk/release/app-release.apk`.
-
-`keystore.properties` and `*.jks` are gitignored. Never commit them. If you previously installed a build signed with a different key, uninstall it before installing the new release.
-
-For public GitHub releases, set these repository secrets:
-
-- `KEYSTORE_BASE64` — base64 of your keystore (`base64 -w0 keystore.jks`)
-- `KEYSTORE_PASSWORD`
-- `KEY_ALIAS`
-- `KEY_PASSWORD`
-
-The release workflow uses them to sign the APK. Without them, the workflow fails instead of publishing a debug-signed APK.
-
 ## Security and privacy
 
 - App permissions: `INTERNET`, `ACCESS_NETWORK_STATE`, and `RECEIVE_BOOT_COMPLETED`. WorkManager adds `WAKE_LOCK` for the brief duration of a worker; the app does not start a foreground service.
@@ -141,7 +97,7 @@ This is an unofficial project. It is not affiliated with, endorsed by, or suppor
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT.
 
 ---
 
